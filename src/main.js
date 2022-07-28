@@ -23,19 +23,7 @@ export const Main = (input) => {
       }
      }
      name()},[])
-  // useEffect(() => { 
-  //   axios
-  //     .get(`https://api.github.com/users/${input.input}`)
-  //     .then((response) => {
-  //       setData(response.data);
-  //       setIsData(true);
-  //       console.log(response.data);
-  //     })
-  //     .catch((error) => {
-  //       setIsData(true);
-  //       console.log(error);
-  //     });
-  // }, []);
+ 
 
  
   console.log(data.created_at);

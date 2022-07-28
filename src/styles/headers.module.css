@@ -1,0 +1,27 @@
+.test {
+    color: #ffffff
+}
+
+.imgBtn {
+  /* background-attachment: none;
+   */
+  font-style: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin-bottom: 0px;
+}
+img {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100px;
+  width: 100x;
+  border-radius: 50%;
+}

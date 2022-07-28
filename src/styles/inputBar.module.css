@@ -1,0 +1,40 @@
+.subbtn {
+   margin-top: 87px;
+  background: white;
+  /* margin-left:0px; */
+  margin-top: 90px;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 30px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  width: 100px;
+  height: 48px;
+  /* margin-bottom: 20px; */
+  font-size: 20px;
+  color: white;
+  background-color: rgb(74, 184, 184);
+}
+
+#one {
+  /* position: ; */
+  width: 100%;
+}
+.forma{
+  /* width: 1; */
+  padding-right:15px ;
+  /* border: 2px solid ; */
+  /* width: 100%; */
+}
+@media only screen and (min-width: 480px)
+{
+
+   #one{
+    width: px;
+   }
+}

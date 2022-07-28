@@ -1,0 +1,49 @@
+.btn {
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #141c2f;
+
+  height: 300px;
+ 
+  overflow-y: auto;
+  width: 100%;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 15px;
+
+  /* display: none; */
+}
+.btn::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.serdata {
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  background-color: #141c2f;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.box {
+  width: 55vw;
+}
+
+@media only screen and (max-width: 540px)
+{
+
+.btn {
+  width: 150%;
+}  
+
+.serdata {
+ width:100% ;
+}
+
+}
